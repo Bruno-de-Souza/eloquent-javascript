@@ -1,8 +1,6 @@
 let space = ' ';
 let hash = '#';
-for (let j = 1; j < 5; j++) {
-    console.log(space + hash + '\n');
-    for (let l = 1; l < 5; l++) {
-        console.log(hash + space + '\n');
-    }
+for (let l = 1; l < 4; l++) {
+    console.log((space + hash) + (space + hash) + (space + hash) + (space + hash) + '\n');
+    console.log((hash + space) + (hash + space) + (hash + space) + (hash + space) + '\n');
 }
