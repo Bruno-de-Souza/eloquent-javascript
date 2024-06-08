@@ -1,9 +1,11 @@
-/*let space = ' ';
+let space = ' ';
 let hash = '#';
-for (let i = 1; i < 4; i++) {
-    console.log((space + hash) + (space + hash) + (space + hash) + (space + hash) + '\n');
-    console.log((hash + space) + (hash + space) + (hash + space) + (hash + space) + '\n');
-}*/
+for (let i = 0; i < 4; i++) {
+    console.log((space + hash) + (space + hash) + (space + hash) + (space + hash));
+    console.log((hash + space) + (hash + space) + (hash + space) + (hash + space));
+}
+
+console.log('########################################');
 
 let chessBoard = '';
 for (let x = 0; x < 8; x++) {
