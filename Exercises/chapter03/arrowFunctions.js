@@ -13,3 +13,7 @@ console.log('Arrow function squere1: ', sqaure1(3, 3) );
 
 const sqaure2 = x => x * x;
 console.log('Arrow function sqaure2: ', sqaure2(3, 3));
+
+const horn = () => {
+    console.log('Arrow function horn: Toot');
+}
