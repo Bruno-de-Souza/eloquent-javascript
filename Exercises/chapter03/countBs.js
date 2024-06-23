@@ -1,12 +1,7 @@
 function countBs(n) {
-    let str = String(n);
-    for (let i = 0; i < str.length; i++) {
-        if (str[0] == 'B') {
-            str += i;
-            return str;
-        } else {
-            null;
-        }
-    }
+    let characters = "BaBaB";
+    console.log(characters.length);
+    let index = characters.indexOf("a");
+    console.log(index);
 }
-console.log(countBs());
+console.log(countBs('BaBaBa'));
