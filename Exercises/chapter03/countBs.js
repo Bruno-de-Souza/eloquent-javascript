@@ -11,5 +11,6 @@ function countChar(string, ch) {
 function countBs(string) {
     return countChar(string, 'B');
 }
+
 console.log(countChar('The result of the first function is: ' + 'BaBaBaBB', 'a'));
 console.log(countBs(`The Result of the second function: ${'BaBaBaBB'}!`));
