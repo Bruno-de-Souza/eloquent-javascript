@@ -12,5 +12,5 @@ function countBsII(string) {
     return countCharII(string, 'B')
 }
 
-console.log(countCharII('bbb', 'b'));
+console.log(countCharII('baa', 'b'));
 console.log(countBsII('Bruno', 'B'));

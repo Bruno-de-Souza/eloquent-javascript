@@ -23,7 +23,7 @@ for (let counter = 0; counter < 10; counter++) {
     result *= 2;
 }
 
-console.log('Using the foor loop: ' + result);
+console.log('Using the for loop: ' + result);
 
 //JS value for exponetiation
 
