@@ -1,12 +1,15 @@
-let count = '';
-for (let i = 1; i < 9; i++) {
-    for (let j = 1; j < 9; j++) {
+let size = 16;
+
+let chessboard = '';
+
+for (let i = 0; i < size; i++) {
+    for (let j = 0; j < size; j++) {
         if ((i + j) % 2 == 0) {
-            count += ' ';
+            chessboard += ' ';
         }  else {
-            count += '#';
+            chessboard += '#';
         }
     }
-    count += '\n';
+    chessboard += '\n';
 }
-console.log(count);
+console.log(chessboard);
