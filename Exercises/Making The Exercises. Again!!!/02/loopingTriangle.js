@@ -1,5 +1,5 @@
 /**
- * @author Bruno Moreira
+ * @author bruno.souza
  * 
  */
 
@@ -13,6 +13,6 @@ for (line = 1; line <= 7; line++) {
 */
 
 // Better implementation
-for (let line = '#'; line.length < 8; line += '#') {
+for (let line = '#'; line.length <= 10; line += '#') {
     console.log(line);
 }

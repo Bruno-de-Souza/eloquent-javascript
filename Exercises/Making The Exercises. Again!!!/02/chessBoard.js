@@ -1,4 +1,4 @@
-let size = 16;
+let size = 6;
 
 let chessboard = '';
 
